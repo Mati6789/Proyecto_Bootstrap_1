@@ -13,6 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Paytone+One&display=swap" rel="stylesheet">
     <!--  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!--  -->
     <link rel="stylesheet" href="./css/styles.css">
     <title>Index Bootstrap</title>
   </head>
@@ -119,68 +122,76 @@
         </div>
       </main>
 
-      <section class="container-fluid">
+      <section>
+        <div class="contacto">
+          <h2 class="text-center h1">CONTACTANOS</h2>
+          <div class="container">
+            <article class="row" id="contactForm">
+              <div class="layout-column col-md-12">
+                <form action="">
+                  <div class="row d-flex align-items-center">
+                    <div class="col-md-4">
+                      <input type="text" name="nombre" id="contactoNombre" placeholder="Nombre">
+                      <input type="email" name="email" id="contactoEmail" placeholder="Email">
+                    </div>
+                    <div class="col-md-6">
+                      <textarea name="mensaje" id="contactoMensaje" cols="40" rows="3" placeholder="Mensaje"></textarea>
+                    </div>
+                    <div class="col-md-2">
+                      <button class="btn-rounded" name="submit" id="submit" type="submit">Enviar</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </article>
+          </div>
+        </div>
+        <article>
+
+        </article>
+      </section>
+
+
+
+
+
+
+      <!-- <section class="container-fluid">
         <h2 class="h3 text-center mt-4 mb-3">CONTACTANOS</h2>
         <div class="row">
           <article class="col-md-6">
             <form class="row g-3">
-              
+              <div class="col-md-6">
+                <label for="inputName" class="form-label">Nombre</label>
+                <input type="name" class="form-control" id="inputName">
+              </div>
+              <div class="col-md-6">
+                <label for="textArea">Mensaje</label>
+                <textarea name="consulta" id="textArea" cols="50" rows="4"></textarea>
+              </div>
               <div class="col-md-6">
                 <label for="inputEmail4" class="form-label">Email</label>
                 <input type="email" class="form-control" id="inputEmail4">
               </div>
-              <!-- <div class="col-md-6">
-                <label for="inputPassword4" class="form-label">Password</label>
-                <input type="password" class="form-control" id="inputPassword4">
-              </div> -->
-              <div class="col-12">
-                <label for="inputAddress" class="form-label">Address</label>
-                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-              </div>
-              <div class="col-12">
-                <label for="inputAddress2" class="form-label">Address 2</label>
-                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-              </div>
-              <div class="col-md-6">
-                <label for="inputCity" class="form-label">City</label>
-                <input type="text" class="form-control" id="inputCity">
-              </div>
-              <div class="col-md-4">
-                <label for="inputState" class="form-label">State</label>
-                <select id="inputState" class="form-select">
-                  <option selected>Choose...</option>
-                  <option>...</option>
-                </select>
-              </div>
-              <div class="col-md-2">
-                <label for="inputZip" class="form-label">Zip</label>
-                <input type="text" class="form-control" id="inputZip">
-              </div>
-              <div class="col-12">
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="gridCheck">
-                  <label class="form-check-label" for="gridCheck">
-                    Check me out
-                  </label>
-                </div>
+              
               </div>
               <div class="col-12">
                 <button type="submit" class="btn btn-primary">Sign in</button>
               </div>
             </form>
-          </article>
+          </article> -->
   
-          <article class="col-md-6">
+          <!-- <article class="col-md-6">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8104.535906964577!2d-64.2494583651222!3d-31.344141004697587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329eaae51e5ce9%3A0xbb8eb657f32b81d3!2sHumberto%20Canale%205978%2C%20X5021%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1661366472061!5m2!1ses-419!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </article>
-        </div>
-      </section>
-      <footer>
+          </article> -->
+        <!-- </div>
+      </section> -->
+      <footer class="d-flex justify-content-center align-items-center">
         <div class="anchoFooter">
           <div class="redes">
-            <li><a href="#">Instagram</a></li>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">GoogleMaps</a></li>
+            <a href="#"><i class="bi bi-instagram fs-2"></i></a>
+            <a href="#"><i class="bi bi-facebook fs-2 m-4"></i></a>
+            <a href="#"><i class="bi bi-whatsapp fs-2"></i></a>
           </div>
         </div>
       </footer>
