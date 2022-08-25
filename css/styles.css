@@ -1,7 +1,18 @@
 
+
+body{
+  position: relative;
+  padding-bottom: 200px;
+}
+
 /* Bg Header */
 .bg-opa{
   background-color: rgba(0, 0, 0, .3);
+}
+.banner{
+  background-image: url(../assets/bannerCursos.webp);
+  height: 122px;
+  background-position: 30% 40%;
 }
 /* Color a nav */
 .nav-link{
@@ -76,6 +87,8 @@ footer{
   width: 100%;
   background-color: #27292B;
   height: 100px;
+  position: absolute;
+  bottom: 0;
 }
 
 footer a{
@@ -96,6 +109,41 @@ footer a{
 }
 
 
+/* Cursos Styles */
+
+/* Section cursos kids */
+
+.kidsTitle h1{
+  font-family: 'Inter', sans-serif;
+  font-size: 30px;
+}
+
+.kidsP{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #333;
+
+
+}
+
+.kidsImg img{
+  width: 25em;
+  height: 15em;
+}
+
+.kidsImg{
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -113,11 +161,19 @@ footer a{
     width: 100px;
   }
 
+
+  .kidsImg img{
+    width: 17em;
+    height: 10em;
+  }
 }
 
 /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
 
+  .kidsImg{
+    margin-bottom: 5px;
+  }
 
 }
 /* // `md` applies to small devices (landscape phones, less than 768px) */
