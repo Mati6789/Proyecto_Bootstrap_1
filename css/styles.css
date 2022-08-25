@@ -13,6 +13,29 @@
   height: 100vh;
 }
 
+/* Card Styles */
+.card{
+  border-radius: 20px;
+}
+
+.card img{
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+
+.btn-color{
+  background-color: #3352a8;
+  color: aliceblue;
+  transition: all .5s;
+}
+
+.btn-color:hover{
+  background-color: #b7dbf7;
+  transform:scale(.9);
+  color: #3352a8;
+  border-color: #3352a8;
+}
 
 
 /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
